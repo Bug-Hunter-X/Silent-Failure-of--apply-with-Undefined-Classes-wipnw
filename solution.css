@@ -1,0 +1,12 @@
+/* solution.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-custom-directive {
+  /* Correctly defined class for @apply */
+  @apply bg-blue-500 text-white p-4;
+}
+
+/* Ensure all referenced classes are defined in your main Tailwind config */
+/* Example: Add any missing classes here */
